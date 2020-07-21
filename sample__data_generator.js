@@ -3,7 +3,7 @@ const sampleDataGenerator = (table, column, amount) => {
     const sampleDataName = table.substr(0, (table.length - 1));
     
     for (i; i <= amount; i++) {
-        console.log(`INSERT INTO ${table} (${table}_$(column)) VALUES("${sampleDataName}${i}");`)
+        console.log(`INSERT INTO ${table} (${table}_${column}) VALUES("${sampleDataName}${i}");`)
     }
 
 };
