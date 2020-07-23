@@ -1,8 +1,11 @@
 USE tetrarch_universty_database;
 
 BEGIN;
-INSERT INTO professors (professors_name)
-VALUES ('EP-1');
+INSERT INTO professors (professors_name) VALUES ('EP-1');
+INSERT INTO professors (professors_name) VALUES ('professor1');
+INSERT INTO professors (professors_name) VALUES ('professor2');
+INSERT INTO professors (professors_name) VALUES ('professor3');
+INSERT INTO professors (professors_name) VALUES ('professor4');
 
 INSERT INTO students (students_name) VALUES("student1");
 INSERT INTO students (students_name) VALUES("student2");
@@ -103,13 +106,6 @@ INSERT INTO students (students_name) VALUES("student96");
 INSERT INTO students (students_name) VALUES("student97");
 INSERT INTO students (students_name) VALUES("student98");
 INSERT INTO students (students_name) VALUES("student99");
-INSERT INTO professors (professors_name) VALUES("professor1");
-INSERT INTO professors (professors_name) VALUES("professor2");
-INSERT INTO professors (professors_name) VALUES("professor3");
-INSERT INTO professors (professors_name) VALUES("professor4");
-INSERT INTO professors (professors_name) VALUES("professor5");
-INSERT INTO professors (professors_name) VALUES("professor6");
-INSERT INTO professors (professors_name) VALUES("professor7");
 INSERT INTO courses (courses_subject) VALUES("course1");
 INSERT INTO courses (courses_subject) VALUES("course2");
 INSERT INTO courses (courses_subject) VALUES("course3");
@@ -120,6 +116,9 @@ INSERT INTO courses (courses_subject) VALUES("course7");
 INSERT INTO courses (courses_subject) VALUES("course8");
 INSERT INTO courses (courses_subject) VALUES("course9");
 INSERT INTO courses (courses_subject) VALUES("course10");
+
+
+
 
 SELECT *
 FROM students;
