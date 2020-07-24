@@ -10,8 +10,8 @@ BEGIN
 		SELECT COUNT(*)
 		FROM students
 	);
-    DECLARE courses_id INT DEFAULT (
-		SELECT COUNT(courses_id)
+    DECLARE courses INT DEFAULT (
+		SELECT COUNT(*)
         FROM courses
     );
     
@@ -21,7 +21,7 @@ BEGIN
         VALUES (
 			I,
             RAND()*100,
-            CEILING(RAND()*courses_id)
+            CEILING(RAND()*courses)
 		);
         
 		SET I = I + 1;

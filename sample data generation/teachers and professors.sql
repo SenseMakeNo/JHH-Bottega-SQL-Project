@@ -106,16 +106,7 @@ INSERT INTO students (students_name) VALUES("student96");
 INSERT INTO students (students_name) VALUES("student97");
 INSERT INTO students (students_name) VALUES("student98");
 INSERT INTO students (students_name) VALUES("student99");
-INSERT INTO courses (courses_subject) VALUES("course1");
-INSERT INTO courses (courses_subject) VALUES("course2");
-INSERT INTO courses (courses_subject) VALUES("course3");
-INSERT INTO courses (courses_subject) VALUES("course4");
-INSERT INTO courses (courses_subject) VALUES("course5");
-INSERT INTO courses (courses_subject) VALUES("course6");
-INSERT INTO courses (courses_subject) VALUES("course7");
-INSERT INTO courses (courses_subject) VALUES("course8");
-INSERT INTO courses (courses_subject) VALUES("course9");
-INSERT INTO courses (courses_subject) VALUES("course10");
+
 
 
 
